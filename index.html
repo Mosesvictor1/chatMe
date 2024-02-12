@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatMe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/54248a18c6.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="chatme.css">
+</head>
+<body class="dark-theme">
+
+    
+    <nav>
+        <div class="nav-left">
+            <img src="Images/chatme.png" class="logo">
+            <ul>
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-bell"></i>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online">
+                <img src="Images/me.jpg">
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+   <div id="container">
+        <!-- --------------- Left-Side-bar start ----------->
+        <div class="left-sidebar">
+            <div class="left-item">
+                <div class="new-chat">
+                    <h2><i class="fa-solid fa-plus"></i>New Chat</h2>
+                </div>
+
+                <div class="left-obtion">
+                    <h4><a href=""><i class="fa-solid fa-clipboard-question"></i>Guide & FAQ</a></h4>
+                    <h4><a href=""><i class="fa-solid fa-arrow-up-from-ground-water"></i>Upgrade</a></h4>
+                    <h4><a href=""><i class="fa-solid fa-gear"></i>Setting</a></h4>
+                    
+                </div>
+                <div class="logout">
+                    <div class="owner">
+                        <img src="Images/me.jpg" alt="user image" width="100px">
+                        <div class="log">
+                            <h2>Victor Moses <a href="">Free</a></h2>
+                            <h5>victormoses2b@gmail.com</h5>
+                        </div>
+                        
+                    </div>
+                    <button><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out</button>
+                </div>
+            </div>
+            
+        </div>
+        <!-- --------------- Left-Side-bar end ----------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <!-- ================= Main-Side-bar start ========================-->
+       <div id="main-content">
+
+
+            <div class="chat-container">
+                <!-- <div class="chat-outgoing chat">
+                    <div class="chat-content">
+                        <div class="chat-details">
+                            <img src="Images/me.jpg" alt="user image"  width="100px">
+                            <p> Delectus consequatur, repellat minus aliquid ad assumenda sunt numquam dolorum ut provident!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-incoming chat">
+                    <div class="chat-content">
+                        <div class="chat-details">
+                            <img src="Images/chatme.png" alt="chatme image" width="100px" >
+                                <p>Lorem, ipsum dolor ffffffffffffffffff fffffffffffffffffff sit amet consectetur adipisicing elit. Veritatis saepe maiores inventore. Nihil voluptate iste itaque officiis nemo dolorem rem!</p>
+                        </div>
+                        <span class="copy"><i class="fa-regular fa-copy"></i></span>
+                    </div>
+                </div>
+
+                <div class="chat-incoming chat">
+                    <div class="chat-content">
+                        <div class="chat-details">
+                            <img src="Images/chatme.png" alt="chatme image" width="100px" >
+                                <div class="typing-animation">
+                                    <div class="typing-dot" style="--delay: 0.2s"></div>
+                                    <div class="typing-dot" style="--delay: 0.3s"></div>
+                                    <div class="typing-dot" style="--delay: 0.4s"></div>
+                                </div>
+                        </div>
+                        <span class="copy"><i class="fa-regular fa-copy"></i></span>
+                    </div>
+                </div> -->
+
+
+
+               
+            </div>
+
+            <!-- --------typing container ----------->
+
+            <div class="typing-container">
+                <div class="typing-content">
+                    <div class="typing-textarea">
+                        <textarea id="chat-input" placeholder="Enter a prompt here" required></textarea>
+                        <span id="send-btn"><i class="fa-solid fa-paper-plane"></i></span>
+
+                    </div>
+                    <div class="typing-controls">
+                        <span id="them-btn"><i class="fa-regular fa-sun"></i></span>
+                        <span id="delete-btn"><i class="fa-solid fa-trash"></i> </span>
+
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- ==================== Main-Side-bar end =====================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- --------------- Right-Side-bar start ----------->
+        <div class="right-sidebar">
+            <div class="right-item">
+
+                <div class="liberay">
+                    <h1>History Library</h1>
+                </div>
+
+                <div class="herstory">
+                    <h4>Chat history</h4>
+                    <h4>20/100</h4>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                
+            </div>
+        </div>
+        <!-- --------------- Right-Side-bar end ----------->
+
+   </div>
+
+    
+
+
+
+
+
+   <script src="chatme.js" defer></script>
+</body>
+</html>
